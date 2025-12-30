@@ -5,7 +5,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>MASIH ABOUT BREE</title>
+    <title>THE Nationals</title>
     <!--begin::Accessibility Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <meta name="color-scheme" content="light dark" />
@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
     <!--end::Accessibility Meta Tags-->
     <!--begin::Primary Meta Tags-->
-    <meta name="title" content="AdminLTE v4 | Dashboard" />
+    <meta name="title" content="THE Nationals" />
     <meta name="author" content="ColorlibHQ" />
     <meta
         name="description"
@@ -25,7 +25,8 @@
     <!--begin::Accessibility Features-->
     <!-- Skip links will be dynamically added by accessibility.js -->
     <meta name="supported-color-schemes" content="light dark" />
-    <link rel="preload" href="./css/adminlte.css" as="style" />
+    <link rel="stylesheet" href="<?= base_url('Assets/css/adminlte.css'); ?>">
+
     <!--end::Accessibility Features-->
     <!--begin::Fonts-->
     <link
@@ -49,7 +50,8 @@
         crossorigin="anonymous" />
     <!--end::Third Party Plugin(Bootstrap Icons)-->
     <!--begin::Required Plugin(AdminLTE)-->
-    <link rel="stylesheet" href="./css/adminlte.css" />
+    <link rel="stylesheet" href="<?= base_url('Assets/css/adminlte.css'); ?>">
+
     <!--end::Required Plugin(AdminLTE)-->
     <!-- apexcharts -->
     <link

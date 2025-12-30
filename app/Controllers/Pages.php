@@ -11,7 +11,9 @@ class Pages extends BaseController
     public function about()
     {
         echo view('layout/Header');
-        echo view('pages/about');
+        echo view('layout/Topbaar');
+        echo view('layout/Sideabar');
+        echo view('about');
         echo view('layout/Footer');
     }
 }
